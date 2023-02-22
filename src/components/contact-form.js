@@ -50,13 +50,13 @@ const ContactForm = () => {
                         <label htmlFor='name' className='text-sm text-primary font-barlow-medium'>
                             Full Name
                         </label>
-                        <input type="text" id='name' required onChange={handleName} value={data.name} className="w-full py-1 text-base text-compliment font-barlow-semibold border-b-2 border-compliment outline-none bg-transparent" />
+                        <input type="text" id='name' required onChange={handleName} value={data.name} className="w-full py-1 text-base text-compliment font-barlow-semibold border-b-2 border-compliment outline-none rounded-none bg-transparent" />
                     </div>
                     <div>
                         <label htmlFor='email' className='text-sm text-primary font-barlow-medium'>
                             Email Address
                         </label>
-                        <input type="email" id='email' required onChange={handleEmail} value={data.email} className="w-full py-1 text-base text-compliment font-barlow-semibold border-b-2 border-compliment outline-none bg-transparent" />
+                        <input type="email" id='email' required onChange={handleEmail} value={data.email} className="w-full py-1 text-base text-compliment font-barlow-semibold border-b-2 border-compliment outline-none rounded-none bg-transparent" />
                     </div>
                     <div>
                         <label htmlFor='message' className='text-sm text-primary font-barlow-medium'>

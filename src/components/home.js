@@ -5,7 +5,7 @@ import { RiSendPlane2Fill } from 'react-icons/ri';
 
 const Home = () => {
     return (
-        <section id='home' style={{backgroundImage: 'url("/images/background.png")'}} className='w-full min-h-screen vertical-space horizontal-space relative grid grid-cols-1 md:grid-cols-2 items-center row-gap bg-cover bg-center bg-fixed'>
+        <section id='home' style={{backgroundImage: 'url("/images/background.png")'}} className='w-full min-h-[60vh] md:min-h-[80vh] lg:min-h-screen vertical-space horizontal-space relative grid grid-cols-1 md:grid-cols-2 items-center row-gap bg-cover bg-center bg-fixed'>
 
             <div className='space-y-4'>
                 <Fade direction='up' duration={750} cascade triggerOnce>
