@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 const BackTopButton = () => {
     return (
         <Link to="home" spy={true} smooth={true} duration={500}>
-            <button className='w-10 h-10 fixed bottom-5 right-5 grid place-items-center bg-primary hover:bg-secondary rounded'>
+            <button className='w-12 h-12 fixed bottom-5 right-5 grid place-items-center bg-primary hover:bg-secondary rounded'>
                 <CgArrowUp className='text-xl text-white' />
             </button>
         </Link>
