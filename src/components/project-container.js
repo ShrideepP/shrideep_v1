@@ -35,7 +35,7 @@ const ProjectContainer = ({ name, content, techs, githubRepo, demoLink, imagePat
                     <div className='inline-block py-2 px-4 md:py-3 md:px-4 lg:py-4 lg:px-8 bg-tirtiary rounded shadow'>
                         <p className='content text-gray-100'>{content}</p>
                     </div>
-                    <div className={`flex gap-4 ${ columnReverse ? "md:justify-end" : "md:justify-start" }`}>
+                    <div className={`flex gap-4 ${ columnReverse ? "md:justify-end" : "md:justify-start" } flex-wrap`}>
                         {techUsed}
                     </div>
                     <div className={`flex gap-4 ${ columnReverse ? "md:justify-end" : "md:justify-start" }`}>
