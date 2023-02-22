@@ -30,7 +30,7 @@ const ProjectContainer = ({ name, content, techs, githubRepo, demoLink, imagePat
                 </a>
             </div>
             <div className={`w-full space-y-4 ${ columnReverse ? "md:order-1 md:text-end" : "md:order-2" }`}>
-                <Fade cascade duration={750} triggerOnce>
+                <Fade triggerOnce>
                     <h3 className='heading3'>{name}</h3>
                     <div className='inline-block py-2 px-4 md:py-3 md:px-4 lg:py-4 lg:px-8 bg-tirtiary rounded shadow'>
                         <p className='content text-gray-100'>{content}</p>
