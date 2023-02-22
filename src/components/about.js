@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Fade } from 'react-awesome-reveal';
-import { RiDownload2Fill } from 'react-icons/ri';
+import { ImProfile } from 'react-icons/im';
 
 const About = () => {
 
@@ -33,10 +33,10 @@ const About = () => {
                         <p className='content'>
                             Currently, I'm pursuing a diploma in computer science, and I'm excited to see where my career in software development takes me. Check out my portfolio to see some of my recent projects and get in touch to collaborate on your next project!
                         </p>
-                        <a href='/document/resume.pdf' download>
+                        <a href='/document/resume.pdf' target="_blank">
                             <button className='w-40 py-3 flex justify-center items-center gap-x-2 text-white bg-primary hover:bg-secondary rounded'>
-                                <span className='text-base font-barlow-bold uppercase'>Download CV</span>
-                                <RiDownload2Fill className='text-base' />
+                                <span className='text-base font-barlow-bold uppercase'>Resume</span>
+                                <ImProfile className='text-base' />
                             </button>
                         </a>
                     </Fade>
