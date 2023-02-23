@@ -29,8 +29,8 @@ const Projects = () => {
                     name="CRUD App"
                     content="The Notes App is a simple web application that allows users to create, read, update, and delete notes. The application is built using the MERN stack (MongoDB, Express.js, React, and Node.js)" 
                     techs={["MongoDB", "Express JS", "React JS", "Node JS", "Tailwind CSS"]}
-                    githubRepo="https://github.com/ShrideepP/disney-plus-clone"
-                    demoLink="https://careerforest.in"
+                    githubRepo="https://github.com/ShrideepP/crud-client"
+                    demoLink="https://crud-client-three.vercel.app/"
                     imagePath="/images/crud-app.png"
                 />
 

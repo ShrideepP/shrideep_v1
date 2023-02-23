@@ -14,7 +14,7 @@ const Navigation = () => {
 
             <Fade triggerOnce direction='down'>
                 <div className='logo-container'>
-                    Hello
+                    <img src='/logo.png' alt='logo' className='w-12' />
                 </div>
             </Fade>
 
@@ -44,7 +44,7 @@ const Navigation = () => {
                     </Fade>
                 </ul>
                 <button className='hamburger-button lg:hidden'>
-                    <Hamburger color='#4f46e5' toggled={navigation} toggle={setNavigation} />
+                    <Hamburger color='#17127D' toggled={navigation} toggle={setNavigation} />
                 </button>
             </div>
 
