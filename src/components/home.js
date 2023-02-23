@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { Fade } from 'react-awesome-reveal';
 import { RiSendPlane2Fill } from 'react-icons/ri';
+import Image from 'next/image';
 
 const Home = () => {
     return (
-        <section id='home' style={{backgroundImage: 'url("/images/background.png")'}} className='w-full min-h-[60vh] md:min-h-[80vh] lg:min-h-screen vertical-space horizontal-space relative grid grid-cols-1 md:grid-cols-2 items-center row-gap bg-cover bg-center bg-fixed'>
+        <section id='home' style={{backgroundImage: 'url("/images/background.png")'}} className='w-full min-h-[90vh] md:min-h-screen vertical-space horizontal-space relative grid grid-cols-1 md:grid-cols-2 items-center row-gap bg-cover bg-center bg-fixed'>
 
-            <div className='space-y-4'>
+            <div className='space-y-4 order-2 md:order-1'>
                 <Fade direction='up' duration={750} cascade triggerOnce>
                     <h1 className="heading1">
                         Shrideep Pakhare.
@@ -27,6 +28,15 @@ const Home = () => {
                     </Link>
                 </Fade>
             </div>
+
+            {/* <div className='flex justify-center order-1 md:order-2'>
+                <Image
+                    src="/images/hero.png"
+                    alt="my-photo"
+                    width={350}
+                    height={350} 
+                />
+            </div> */}
 
         </section>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiGithub, FiInstagram, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 const SocialHandle = () => {
     return (
@@ -9,14 +9,9 @@ const SocialHandle = () => {
                     <FiGithub />
                 </button>
             </a>
-            <a href='' target="_blank">
+            <a href='https://www.instagram.com/_shrideep/' target="_blank">
                 <button className='text-primary hover:text-secondary hover:-translate-y-1 text-xl'>
                     <FiInstagram />
-                </button>
-            </a>
-            <a href='' target="_blank">
-                <button className='text-primary hover:text-secondary hover:-translate-y-1 text-xl'>
-                    <FiLinkedin />
                 </button>
             </a>
             <hr className='w-[2px] h-28 border-0 bg-primary rounded' />

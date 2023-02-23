@@ -9,7 +9,7 @@ const About = () => {
 
         <section id='about' className='w-full h-fit horizontal-space vertical-space'>
 
-            <div className='mb-4 md:mb-8 lg:mb-12 text-center'>
+            <div className='mb-8 lg:mb-12 text-center'>
                 <Fade cascade direction='up' duration={750} triggerOnce>
                     <span className='sub-heading'>About Me</span>
                     <h2 className='heading2 mb-4'>My Introduction</h2>
@@ -19,10 +19,13 @@ const About = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 items-center column-gap row-gap'>
 
-                <div>
-                    <Fade triggerOnce>
-                        <img src='https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600' alt='my-photo' className='w-full h-80 mx-auto object-cover object-center rounded' />
-                    </Fade>
+                <div className='flex justify-center'>
+                    <Image
+                        src='/images/about.png'
+                        alt='my-photo'
+                        width={400}
+                        height={400} 
+                    />
                 </div>
 
                 <div className='space-y-4'>

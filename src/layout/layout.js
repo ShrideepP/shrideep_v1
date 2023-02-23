@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Shrideep Pakhare - MERN Developer</title>
                 <meta name='description' content="Welcome to my portfolio website! I'm Shrideep, a MERN stack developer who loves building beautiful and user-friendly interfaces. I'm currently pursuing my diploma in computer science and always excited to learn new technologies. Take a look at my recent projects and let's discuss how we can work together to bring your ideas to life." />
-                <link rel="shortcut icon" href="" type="image/x-icon"></link>
+                <link rel="shortcut icon" href="/images/about.png" type="image/x-icon"></link>
             </Head>
 
             <Navigation />

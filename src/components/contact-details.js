@@ -52,14 +52,9 @@ const ContactDetails = () => {
                             <FiGithub />
                         </button>
                     </a>
-                    <a href='' target="_blank">
+                    <a href='https://www.instagram.com/_shrideep/' target="_blank">
                         <button className='w-10 h-10 grid place-items-center text-white bg-transparent hover:bg-secondary rounded-full'>
                             <FiInstagram />
-                        </button>
-                    </a>
-                    <a href='' target="_blank">
-                        <button className='w-10 h-10 grid place-items-center text-white bg-transparent hover:bg-secondary rounded-full'>
-                            <FiLinkedin />
                         </button>
                     </a>
                 </div>

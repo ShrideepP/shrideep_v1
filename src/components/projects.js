@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <section id='projects' className='w-full h-fit vertical-space horizontal-space'>
 
-            <div className='mb-4 md:mb-8 lg:mb-12 text-center'>
+            <div className='mb-8 lg:mb-12 text-center'>
                 <Fade cascade direction='up' duration={750} triggerOnce>
                     <span className='sub-heading'>My Work</span>
                     <h2 className='heading2 mb-4'>Things I've Built</h2>

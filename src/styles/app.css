@@ -2,6 +2,7 @@
     --primary-color: #655EE8;
     --secondary-color: #FB7185;
     --tirtiary-color: #17127D;
+    --background-color: #F9FAFB;
 }
 
 *, *::before, *::after {
@@ -19,11 +20,18 @@
 }
 
 .navigation {
-    height: 12.5vh;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 10vh;
+    position: relative;
     z-index: 999;
+}
+
+@media screen and (min-width: 768px) { 
+    .navigation {
+        height: 12.5vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 .navigation.scrolled {
