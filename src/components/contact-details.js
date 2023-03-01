@@ -47,6 +47,11 @@ const ContactDetails = () => {
                 </div>
 
                 <div className='relative flex items-center gap-x-2 z-50'>
+                    <a href='https://www.linkedin.com/in/shrideep-pakhare-8577b9267/' target="_blank">
+                        <button className='w-10 h-10 grid place-items-center text-white bg-transparent hover:bg-secondary rounded-full'>
+                            <FiLinkedin />
+                        </button>
+                    </a>
                     <a href='https://github.com/ShrideepP/' target="_blank">
                         <button className='w-10 h-10 grid place-items-center text-white bg-transparent hover:bg-secondary rounded-full'>
                             <FiGithub />
